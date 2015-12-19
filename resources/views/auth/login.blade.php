@@ -18,21 +18,21 @@
                     </ul>
                 @endif
 
-                <form method='POST' action='/login'>
+                <form class='login' method='POST' action='/login'>
 
                     {!! csrf_field() !!}
 
-                    <div class='form-group'>
+                    <div class='form-group-login'>
                         <label for='email'>Email</label>
                         <input type='text' name='email' id='email' value='{{ old('email') }}'>
                     </div>
 
-                    <div class='form-group'>
+                    <div class='form-group-login'>
                         <label for='password'>Password</label>
                         <input type='password' name='password' id='password' value='{{ old('password') }}'>
                     </div>
 
-                    <div class='form-group'>
+                    <div class='form-group-login'>
                         <input type='checkbox' name='remember' id='remember'>
                         <label for='remember' class='checkboxLabel'>Remember me</label>
                     </div>
