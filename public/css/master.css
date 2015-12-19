@@ -1,0 +1,667 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.stage {
+    width: 100%;
+    background-color: #fff;
+}
+
+.pageContent {
+    width: 1000px;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.pageTitle {
+    background: url('/css/img/p4-header.jpg') no-repeat;
+    font-size: 96px;
+    font-family: Lato;
+    height: 250px;
+    width: 1000px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    color: #666;
+    line-height: 100%;
+}
+
+.shell {
+    height: 30px;
+    width: 1000px;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 1px 0px;
+    font-size: 11px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.form-group-login {
+    width: 230px;
+    height: 20px;
+    font-size: 13px;
+    color: #666;
+    margin: 0px 0px 20px 0px;
+    text-align: right;
+}
+
+.form-group {
+    width: 380px;
+    height: 20px;
+    font-size: 13px;
+    color: #666;
+    margin: 0px 0px 20px 20px;
+    text-align: right;
+}
+
+.form-group-upload {
+    width: 450px;
+    height: 20px;
+    font-size: 13px;
+    color: #666;
+    margin: 0px 20px 20px 0px;
+    text-align: right;
+}
+
+.welcome-text {
+    float: left;
+    width: 60%;
+}
+
+.welcome-login {
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+
+form.login{
+    background:#f5f5f5;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form.create{
+    background:#f5f5f5;
+    width: 480px;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+label{
+    width: 100px;
+    text-align: right;
+}
+
+button[type="submit"]{
+    background: #0098cb;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    text-align: right;
+    margin-left: 150px;
+}
+
+button.create[type="submit"]{
+    background: #0098cb;
+    margin: 10px 0px 0px 50px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    text-align: right;
+    margin-left: 270px;
+}
+
+.account-name-title {
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-type-title {
+  float: left;
+  text-align: center;
+  width: 99px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-number-title {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-phone-title {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-website-title {
+  float: left;
+  text-align: center;
+  width: 199px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-username-title {
+  float: left;
+  text-align: center;
+  width: 99px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-action-title {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.account-name {
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-type {
+  float: left;
+  text-align: center;
+  width: 99px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-number {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-phone {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-website {
+  float: left;
+  text-align: center;
+  width: 199px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-username {
+  float: left;
+  text-align: center;
+  width: 99px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.account-action {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-date-title {
+  float: left;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-name-title {
+  float: left;
+  text-align: center;
+  width: 179px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-type-title {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-amount-title {
+  float: left;
+  text-align: center;
+  width: 94px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-recipient-title {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-memo-title {
+  float: left;
+  text-align: center;
+  width: 199px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.trans-action-title {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 30px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #336699;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trans-date {
+  float: left;
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-name {
+  float: left;
+  text-align: center;
+  width: 179px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-type {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-amount {
+  float: left;
+  text-align: center;
+  width: 94px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-recipient {
+  float: left;
+  text-align: center;
+  width: 124px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-memo {
+  float: left;
+  text-align: center;
+  width: 199px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.trans-action {
+  float: left;
+  text-align: center;
+  width: 149px;
+  height: 25px;
+  padding: 3px 0px 0px 0px;
+  margin: 0px 0px 0px 1px;
+  background-color: #eee;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+.links {
+  float:right;
+  width: 50%;
+  height: 25px;
+  text-align: right;
+  padding 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.receipt {
+  padding 0px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.balance {
+  float: left;
+  width: 50%;
+  height: 25px;
+  text-align: left;
+  padding 0px;
+  margin: 0px 0px 0px 0px;
+  color: #FF6600;
+}
+
+.user {
+  float: left;
+  width: 320px;
+  padding 20px;
+  margin: 0px 0px 0px 20px;
+}
+
+.userContent {
+  padding 20px;
+}
+
+.xkcd {
+  float: left;
+  width: 320px;
+  padding 20px;
+  margin: 0px 0px 0px 20px;
+}
+
+.xkcdContent {
+  padding 20px;
+}
+
+.disclaimer {
+  font-size: 11px;
+  color: #666;
+  line-height: 150%;
+  margin: 10px 0px 15px 0px;
+}
+
+.bladePage {
+    margin: 0px;
+}
+
+.error {
+  background-color: #ff0000;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h1 {
+    width: 100%;
+    border-bottom: 1px dotted #999;
+    padding-bottom: 10px;
+    font-size: 42px;
+    color: #F14E32;
+}
+
+h2 {
+    font-size: 96px;
+    font-family: Lato;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 0px 50px;
+    color: #666;
+    line-height: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: Lato;
+    margin: 0px 0px 20px 10px;
+    padding: 0px 0px 0px 0px;
+    color: #999;
+    line-height: 150%;
+}
+
+a.welcome {
+  text-decoration: none;
+  color: #336699;
+}
+
+a.welcome:hover {
+  text-decoration: underline;
+  color: #cc6600;
+}
+
+a.transaction {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+a.transaction:hover {
+  text-decoration: underline;
+  color: #ff6600;
+  margin: 0px;
+}
+
+.topLinks {
+  text-align: right;
+  width: 920px;
+  margin: 5px auto 0px auto;
+  color: #666;
+}
+
+a.topLinks {
+  text-decoration: none;
+  color: #999;
+}
+
+a.topLinks:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+.topLinks ul li {
+  list-style-type: none;
+  display: inline;
+  border-left: 1px solid #eee;
+  padding-left: 5px;
+}
+
+.topLinks2 li {
+  list-style-type: none;
+  display: inline;
+
+}
+
+.flash {
+    width: 100%;
+}
+
+.flash_message {
+    width:990px;
+    text-align:center;
+    margin: 0px auto 0px -500px;
+    padding:5px;
+    position:fixed;
+    top:270px;
+    left: 50%;
+    background-color: #cc6600;
+    font-weight:bold;
+}
