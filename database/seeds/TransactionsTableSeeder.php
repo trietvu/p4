@@ -160,7 +160,7 @@ class TransactionsTableSeeder extends Seeder
             'trans_name' => 'Dinner out',
             'trans_type' => 'Meals & Entertainment',
             'amount' => '32.50',
-            'recipient' => 'Popeyes Chicken,
+            'recipient' => 'Popeyes Chicken',
             'memo' => 'Not cooking tonight',
             'receipt_url' => '/receipts/rec_img9.jpg',
             'account_id' => '6',
