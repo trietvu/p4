@@ -63,6 +63,16 @@ body {
     text-align: right;
 }
 
+.form-group-notice {
+    width: 380px;
+    height: 20px;
+    font-size: 13px;
+    color: #cc3300;
+    margin: 0px 0px 20px 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
 .form-group-upload {
     width: 450px;
     height: 20px;

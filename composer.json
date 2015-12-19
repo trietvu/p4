@@ -8,8 +8,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "laravelcollective/html": "^5.1",
-        "illuminate/http": "^5.1",
-        "khill/lavacharts" : "2.5.*"
+        "illuminate/http": "^5.1"
 
     },
     "require-dev": {

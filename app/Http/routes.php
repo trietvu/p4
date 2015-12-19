@@ -29,13 +29,21 @@ Route::get('/register', 'Auth\AuthController@getRegister');
 # Process registration form
 Route::post('/register', 'Auth\AuthController@postRegister');
 
+Route::get('password/email', 'Auth\PasswordController@getEmail');
+Route::post('password/email', 'Auth\PasswordController@postEmail');
+
+// Password reset routes...
+Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
+Route::post('password/reset', 'Auth\PasswordController@postReset');
+
 
 
 Route::group(['middleware' => 'auth'], function() {
 
     Route::get('/addresses','AddressController@getIndex');
 
-    Route::get('/info','AuthController@getEdit');
+    Route::get('/info/{id}','InfoController@getEdit');
+    Route::post('/info','InfoController@postEdit');
 
     Route::get('/addresses/create', 'AddressController@getCreate');
     Route::post('/addresses/create', 'AddressController@postCreate');

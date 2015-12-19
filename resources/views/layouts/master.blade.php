@@ -39,6 +39,7 @@
             @if(Auth::check())
                 <li class='topLinks'>Welcome {{ $user->name }}!</li>
                 <li class='topLinks'><a href='/' class='topLinks'>Home</a></li>
+                <li class='topLinks'><a href='/info/{{ $user->id }}' class='topLinks'>Edit Personal Info</a></li>
                 <li class='topLinks'><a href='/addresses/edit' class='topLinks'>Edit Address</a></li>
                 <li class='topLinks'><a href='/accounts' class='topLinks'>My Accounts</a></li>
                 <li class='topLinks'><a href='/logout' class='topLinks'>Log out</a></li>
