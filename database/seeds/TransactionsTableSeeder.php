@@ -18,7 +18,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '350.00',
             'recipient' => 'Citizens Bank',
             'memo' => 'My first deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '1',
         ]);
         DB::table('transactions')->insert([
@@ -45,7 +45,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '200.00',
             'recipient' => 'Bank of America',
             'memo' => 'Start my savings account',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '2',
         ]);
         DB::table('transactions')->insert([
@@ -54,7 +54,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '50.00',
             'recipient' => 'Bank of America',
             'memo' => 'Weekly deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '2',
         ]);
         DB::table('transactions')->insert([
@@ -63,7 +63,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '100.00',
             'recipient' => 'Bank of America',
             'memo' => 'Extra cash deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '2',
         ]);
         DB::table('transactions')->insert([
@@ -99,7 +99,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '500.00',
             'recipient' => 'Wells Fargo',
             'memo' => 'Initial deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '4',
         ]);
         DB::table('transactions')->insert([
@@ -126,7 +126,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '450.00',
             'recipient' => 'Federal Reserve Bank',
             'memo' => 'Start my savings account',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '5',
         ]);
         DB::table('transactions')->insert([
@@ -135,7 +135,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '60.00',
             'recipient' => 'Federal Reserve Bank',
             'memo' => 'Weekly deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '5',
         ]);
         DB::table('transactions')->insert([
@@ -144,7 +144,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '80.00',
             'recipient' => 'Federal Reserve Bank',
             'memo' => 'Extra cash deposit',
-            'receipt_url' => NULL,
+            'receipt_url' => '',
             'account_id' => '5',
         ]);
         DB::table('transactions')->insert([
