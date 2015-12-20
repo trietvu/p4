@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mandrillapp.com'),
+    'host' => env('MAIL_HOST', 'smtpout.secureserver.net'),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+    'port' => env('MAIL_PORT', 465),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'tvu@fas.harvard.edu', 'name' => 'Triet'],
+    'from' => ['address' => 'tvu1014@gmail.com', 'name' => 'Triet'],
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'username' => env('tvu@fas.harvard.edu'),
+    'username' => env('tvu1014@gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'password' => env('LvGyFX5D1C2ZM9qdb4_B5w'),
+    'password' => env('bumper'),
 
     /*
     |--------------------------------------------------------------------------
