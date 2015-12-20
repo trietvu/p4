@@ -3,7 +3,7 @@
 @section('content')
     <div class="stage">
         <div class="pageContent">
-            <div class="pageTitle">My First Ledger</div>
+            <div class="pageTitle"><h2>My First Ledger</h2></div>
 
                 <h1>Edit your address information:</h1>
 
