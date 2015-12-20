@@ -27,7 +27,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '65.34.00',
             'recipient' => 'HEB',
             'memo' => 'My weekly groceries',
-            'receipt_url' => '/uploads/rec_img1.jpg',
+            'receipt_url' => 'uploads/rec_img1.jpg',
             'account_id' => '1',
         ]);
         DB::table('transactions')->insert([
@@ -36,7 +36,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '23.15',
             'recipient' => 'Target',
             'memo' => 'My first deposit',
-            'receipt_url' => '/uploads/rec_img2.jpg',
+            'receipt_url' => 'uploads/rec_img2.jpg',
             'account_id' => '1',
         ]);
         DB::table('transactions')->insert([
@@ -72,7 +72,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '39.75',
             'recipient' => 'Jiffy Lube',
             'memo' => 'Regular oil change',
-            'receipt_url' => '/uploads/rec_img3.jpg',
+            'receipt_url' => 'uploads/rec_img3.jpg',
             'account_id' => '3',
         ]);
         DB::table('transactions')->insert([
@@ -81,7 +81,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '32.50',
             'recipient' => 'AMC Theatres',
             'memo' => 'Star Wars',
-            'receipt_url' => '/uploads/rec_img4.jpg',
+            'receipt_url' => 'uploads/rec_img4.jpg',
             'account_id' => '3',
         ]);
         DB::table('transactions')->insert([
@@ -90,7 +90,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '54.38',
             'recipient' => 'Virgils BBQ',
             'memo' => 'Date night dinner',
-            'receipt_url' => '/uploads/rec_img5.jpg',
+            'receipt_url' => 'uploads/rec_img5.jpg',
             'account_id' => '3',
         ]);
         DB::table('transactions')->insert([
@@ -108,7 +108,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '125.65',
             'recipient' => 'Walgreens',
             'memo' => 'Prescription',
-            'receipt_url' => '/uploads/rec_img6.jpg',
+            'receipt_url' => 'uploads/rec_img6.jpg',
             'account_id' => '4',
         ]);
         DB::table('transactions')->insert([
@@ -117,7 +117,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '135.48',
             'recipient' => 'Geico',
             'memo' => 'Quarterly insurance',
-            'receipt_url' => '/uploads/rec_img7.jpg',
+            'receipt_url' => 'uploads/rec_img7.jpg',
             'account_id' => '4',
         ]);
         DB::table('transactions')->insert([
@@ -153,7 +153,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '236.75',
             'recipient' => 'Metro Energy',
             'memo' => 'Heating oil refill',
-            'receipt_url' => '/uploads/rec_img8.jpg',
+            'receipt_url' => 'uploads/rec_img8.jpg',
             'account_id' => '6',
         ]);
         DB::table('transactions')->insert([
@@ -162,7 +162,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '32.50',
             'recipient' => 'Popeyes Chicken',
             'memo' => 'Not cooking tonight',
-            'receipt_url' => '/uploads/rec_img9.jpg',
+            'receipt_url' => 'uploads/rec_img9.jpg',
             'account_id' => '6',
         ]);
         DB::table('transactions')->insert([
@@ -171,7 +171,7 @@ class TransactionsTableSeeder extends Seeder
             'amount' => '114.72',
             'recipient' => 'Nordstrom',
             'memo' => 'Need a new coat',
-            'receipt_url' => '/uploads/rec_img10.jpg',
+            'receipt_url' => 'uploads/rec_img10.jpg',
             'account_id' => '6',
         ]);
     }
