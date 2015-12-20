@@ -17,10 +17,11 @@ class PasswordController extends Controller
     | explore this trait and override any methods you wish to tweak.
     |
     */
-    protected $redirectTo = '/login';
+
 
     use ResetsPasswords;
 
+    protected $redirectTo = '/accounts';
     /**
      * Create a new password controller instance.
      *
