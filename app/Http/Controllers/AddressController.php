@@ -61,7 +61,7 @@ class AddressController extends Controller{
 
         if(is_null($address)) {
             \Session::flash('flash_message','Address not found');
-            return redirect('address/create');
+            return redirect('addresses/create');
         }
 
         $stateModel = new \App\State();

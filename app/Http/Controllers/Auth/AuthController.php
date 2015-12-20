@@ -23,6 +23,8 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
+    #Where the user will be redirected to after registration.
+    protected $redirectTo = '/addresses/create';
     # Where should the user be redirected to if their login succeeds?
     protected $redirectPath = '/accounts';
 

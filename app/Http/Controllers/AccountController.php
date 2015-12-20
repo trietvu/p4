@@ -9,6 +9,13 @@ class AccountController extends Controller{
 
     public function getIndex(Request $request) {
 
+        $address = \App\Address::where('user_id','=',\Auth::id())->get()->first();
+
+        if(is_null($address)) {
+            \Session::flash('flash_message','Please create an address for your account');
+            return redirect('addresses/create');
+        }
+
         $accounts = \App\Account::where('user_id','=',\Auth::id())->orderBy('id','ASC')->get();
 
         return view('account.index')->with('accounts',$accounts);

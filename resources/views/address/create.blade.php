@@ -15,7 +15,7 @@
                     </ul>
                 @endif
 
-                <form method='POST' action='/addresses/create'>
+                <form class='create' method='POST' action='/addresses/create'>
                     {!! csrf_field() !!}
                     <input type='hidden' name='user_id' value='{{ $user->id }}'>
                     <div class='form-group'>
@@ -55,7 +55,7 @@
                         <input type='text' name='phone' id='phone' value='{{ old('phone') }}'>
                     </div>
 
-                    <button type='submit' class='btn btn-primary'>Save</button>
+                    <button type='submit' class='create'>Save</button>
 
                 </form>
             </div>
