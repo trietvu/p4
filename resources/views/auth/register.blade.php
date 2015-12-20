@@ -6,7 +6,7 @@
         <div class="pageTitle"><h2>My First Ledger</h2></div>
             <h1>Register</h1>
 
-            <p>Already have an account? <a href='/login'>Login here.</a></p>
+            <p style="text-align: center;">Already have an account? <a href='/login'>Login here.</a></p>
 
             @if(count($errors) > 0)
                 <ul class='errors'>
@@ -16,7 +16,7 @@
                 </ul>
             @endif
 
-            <form method='POST' action='/register'>
+            <form class='create' method='POST' action='/register'>
                 {!! csrf_field() !!}
 
                 <div class='form-group'>
@@ -49,7 +49,7 @@
                     <input type='password' name='password_confirmation' id='password_confirmation'>
                 </div>
 
-                <button type='submit' class='btn btn-primary'>Register</button>
+                <button type='submit' class='create'>Register</button>
 
             </form>
             </div>
