@@ -69,7 +69,7 @@ class AccountsTableSeeder extends Seeder
             'user_id' => '2',
         ]);
         DB::table('accounts')->insert([
-            'name' => 'Federal Reserve Bank',
+            'name' => 'Federal Reserve',
             'type' => 'Savings',
             'number' => '7685',
             'streetaddress' => '301 Stuart Ave',
