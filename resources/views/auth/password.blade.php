@@ -6,14 +6,6 @@
         <div class="pageTitle"><h2>My First Ledger</h2></div>
             <h1>Reset your password</h1>
 
-            @if(count($errors) > 0)
-                <ul class='errors'>
-                    @foreach ($errors->all() as $error)
-                        <li><span class='fa fa-exclamation-circle'></span> {{ $error }}</li>
-                    @endforeach
-                </ul>
-            @endif
-
                 <form method="POST" action="/password/email">
                     {!! csrf_field() !!}
 
