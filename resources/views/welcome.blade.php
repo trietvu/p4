@@ -35,10 +35,6 @@
                             <label for='remember' class='checkboxLabel'>Remember me</label>
                         </div>
 
-                        <div class='form-group-login'>
-                            <label for='remember' class='checkboxLabel'>Forgot your password? <a href='/password/email'>Click here</a>.</label>
-                        </div>
-
                         <button type='submit' class='btn btn-primary'>Login</button>
 
                     </form>
