@@ -21,7 +21,7 @@ accounts will have a positive amount for credits and deposits and a negative amo
 a debit transaction. Credit card accounts will have a positive amount for all purchases
 and a negative amount for payments or credits to the account.
 
-The link to the screencast demo for this project can be found at: https://youtu.be/
+The link to the screencast demo for this project can be found at: https://youtu.be/OhUltF0h8uc
 
 The Lity Lightbox plugin was used to show receipt images so that the user did not have
 to load a new page and then go back to see the receipt. A reporting tool was the final
@@ -32,4 +32,4 @@ have their own account(s) with many transactions but with the help of individual
 and my section, I was given the insight to solve them on my own. Despite only really using
 the One to Many database relationship, there were challenges to the project. Many thanks
 again to my TA, Jennifer, members my section and classmates on Piazza for their help and
-insight. 
+insight.
